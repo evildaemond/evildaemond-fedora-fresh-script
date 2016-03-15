@@ -1,7 +1,5 @@
 #!/bin/bash
 # This script will install all of my major programs for Fedora
-echo -ne '10% Complete/r'
-echo
 echo "Adding RPMFusion Repos"
 
 dnf install --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
@@ -49,7 +47,7 @@ dnf install http://linuxdownload.adobe.com/adobe-release/adobe-release-x86_64-1.
 dnf install flash-plugin -y
 
 echo "Installed Multimedia Plugins"
-echo 
+echo
 echo "Installing Final Programs"
 
 dnf install curl -y
@@ -74,4 +72,4 @@ wget https://raw.githubusercontent.com/rawdigits/wee-slack/master/wee_slack.py
 cp wee_slack.py ~/.weechat/python/autoload
 
 echo "Installed Programs"
-echo "Program Completed"
+echo "All programs Installed"
