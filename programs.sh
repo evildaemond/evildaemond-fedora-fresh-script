@@ -1,5 +1,6 @@
 #!/bin/bash
 {
+dnf install inkscape -y
 dnf install curl -y
 dnf install tmux -y
 dnf install vimf -y
