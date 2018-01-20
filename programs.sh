@@ -13,9 +13,6 @@ dnf install gimp -y
 dnf install vlc -y
 dnf install kicad -y
 dnf install unzip -y
-cd /etc/yum.repos.d/
-wget http://download.opensuse.org/repositories/home:moonwolf:scudcloud/Fedora_23/home:moonwolf:scudcloud.repo
-dnf install scudcloud -y
 sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 pip install websocket-client
