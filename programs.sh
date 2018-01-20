@@ -13,9 +13,8 @@ dnf install gimp -y
 dnf install vlc -y
 dnf install kicad -y
 dnf install unzip -y
+dnf install guake -y
 sudo curl https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 pip install websocket-client
-wget https://raw.githubusercontent.com/rawdigits/wee-slack/master/wee_slack.py
-cp wee_slack.py ~/.weechat/python/autoload
 } &> /dev/null
